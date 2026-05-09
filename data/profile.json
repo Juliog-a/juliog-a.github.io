@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Julio García-Amorena — SOC Analyst",
-    "version": "2.0"
+    "version": "3.0"
   },
   "identity": {
     "displayName": "Julio García-Amorena",
@@ -31,7 +31,7 @@
         "role": "SOC Analyst · Threat Detection · Incident Response",
         "summary": "Cybersecurity profile focused on SOC operations, client-facing incident handling, internal security exposure, SIEM/SOAR workflows and endpoint telemetry. I work across hybrid environments, improving alert triage, detection logic, automation and technical reporting.",
         "terminalWhoami": "SOC Analyst // Cybersecurity Operations",
-        "availability": "Open to cybersecurity roles · Ireland / UK / Spain",
+        "availability": "Internal + client-facing security operations",
         "contactCta": "Contact",
         "cvEn": "Download CV · EN",
         "cvEs": "CV · ES",
@@ -49,7 +49,7 @@
         {
           "value": "2+ yrs",
           "label": "Cybersecurity operations",
-          "detail": "SOC, internal IT security and operational security exposure."
+          "detail": "SOC, internal security and operational exposure."
         },
         {
           "value": "60–90",
@@ -59,7 +59,7 @@
         {
           "value": "Client",
           "label": "Facing SOC",
-          "detail": "Incident escalation, reporting and coordination with client teams."
+          "detail": "Incident escalation, reporting, ticketing and communication with client teams."
         },
         {
           "value": "B2",
@@ -138,27 +138,78 @@
       "skills": [
         {
           "title": "SIEM / SOAR",
-          "items": ["Microsoft Sentinel", "Splunk", "Elastic", "Wazuh", "FortiSIEM", "Sentinel Playbooks", "Rule tuning", "Alert triage"]
+          "items": [
+            "Microsoft Sentinel",
+            "Splunk",
+            "Elastic",
+            "Wazuh",
+            "FortiSIEM",
+            "Sentinel Playbooks",
+            "Rule tuning",
+            "Alert triage"
+          ]
         },
         {
           "title": "EDR / XDR",
-          "items": ["CrowdStrike", "Microsoft Defender", "Microsoft 365 Defender", "Endpoint telemetry", "Containment support", "Suspicious process analysis"]
+          "items": [
+            "CrowdStrike",
+            "Microsoft Defender",
+            "Microsoft 365 Defender",
+            "Endpoint telemetry",
+            "Containment support",
+            "Suspicious process analysis"
+          ]
         },
         {
           "title": "Incident Response",
-          "items": ["Phishing", "Malware/Ransomware", "Unauthorized access", "Client escalation", "Jira", "ServiceNow", "TheHive", "IRIS", "Technical reporting"]
+          "items": [
+            "Phishing",
+            "Malware/Ransomware",
+            "Unauthorized access",
+            "Client escalation",
+            "Jira",
+            "ServiceNow",
+            "TheHive",
+            "IRIS",
+            "Technical reporting"
+          ]
         },
         {
           "title": "Internal Security",
-          "items": ["Linux", "Windows Server", "Hardening", "Docker", "Proxmox", "RAID", "HP/Dell ProLiant", "Security awareness"]
+          "items": [
+            "Linux",
+            "Windows Server",
+            "Hardening",
+            "Docker",
+            "Proxmox",
+            "RAID",
+            "HP/Dell ProLiant",
+            "Security awareness"
+          ]
         },
         {
           "title": "Detection Lab",
-          "items": ["MITRE ATT&CK", "T1486", "Sysmon", "Velociraptor", "Windows telemetry", "PowerShell", "Ransomware simulation"]
+          "items": [
+            "MITRE ATT&CK",
+            "T1486",
+            "Sysmon",
+            "Velociraptor",
+            "Windows telemetry",
+            "PowerShell",
+            "Ransomware simulation"
+          ]
         },
         {
           "title": "Cloud / Automation",
-          "items": ["Azure", "AWS", "Hybrid environments", "Bash scripting", "SOAR workflows", "Log correlation", "Documentation"]
+          "items": [
+            "Azure",
+            "AWS",
+            "Hybrid environments",
+            "Bash scripting",
+            "SOAR workflows",
+            "Log correlation",
+            "Documentation"
+          ]
         }
       ],
       "projectsIntro": "Labs and projects that support my defensive security profile: detection engineering, controlled simulations, secure web development and practical cybersecurity testing.",
@@ -169,9 +220,18 @@
           "status": "Detection engineering",
           "title": "Velociraptor / MITRE ATT&CK Detection Lab",
           "description": "Academic and personal lab focused on endpoint telemetry, controlled technique execution, MITRE ATT&CK mapping and SOC-style alerting workflows. Built around Windows telemetry, Sysmon, Velociraptor and ransomware-related behavior analysis.",
-          "tags": ["Detection", "Velociraptor", "Sysmon", "MITRE", "Ransomware"],
+          "tags": [
+            "Detection",
+            "Velociraptor",
+            "Sysmon",
+            "MITRE",
+            "Ransomware"
+          ],
           "links": [
-            { "label": "Related GitHub", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+            {
+              "label": "Related GitHub",
+              "href": "https://github.com/Juliog-a/Controlled-File-Encryption"
+            }
           ]
         },
         {
@@ -179,9 +239,17 @@
           "status": "Ransomware simulation",
           "title": "Controlled File Encryption",
           "description": "Safe PowerShell workflow for controlled file encryption and decryption. Designed to simulate ransomware-style encryption behavior in a reversible lab environment for defensive testing and detection validation.",
-          "tags": ["PowerShell", "T1486", "Detection", "Ransomware"],
+          "tags": [
+            "PowerShell",
+            "T1486",
+            "Detection",
+            "Ransomware"
+          ],
           "links": [
-            { "label": "Repository", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+            {
+              "label": "Repository",
+              "href": "https://github.com/Juliog-a/Controlled-File-Encryption"
+            }
           ]
         },
         {
@@ -189,9 +257,18 @@
           "status": "Secure web platform",
           "title": "Cybersecurity Web Platform",
           "description": "Cybersecurity learning platform built with Django, React, Tailwind, JWT, 2FA and PostgreSQL, with attention to common risks such as XSS, CSRF, SQL injection and malicious file uploads.",
-          "tags": ["Django", "React", "JWT", "2FA", "Web Security"],
+          "tags": [
+            "Django",
+            "React",
+            "JWT",
+            "2FA",
+            "Web Security"
+          ],
           "links": [
-            { "label": "Repository", "href": "https://github.com/Juliog-a/Chees-Script" }
+            {
+              "label": "Repository",
+              "href": "https://github.com/Juliog-a/Chees-Script"
+            }
           ]
         },
         {
@@ -199,9 +276,17 @@
           "status": "Security testing",
           "title": "Security Testing Lab",
           "description": "Repository of cybersecurity tests, exercises and technical practice. Used as an evidence base for hands-on learning, offensive/defensive testing and structured security experimentation.",
-          "tags": ["Cybersecurity", "Testing", "Python", "Lab"],
+          "tags": [
+            "Cybersecurity",
+            "Testing",
+            "Python",
+            "Lab"
+          ],
           "links": [
-            { "label": "Repository", "href": "https://github.com/Juliog-a/securitytesting" }
+            {
+              "label": "Repository",
+              "href": "https://github.com/Juliog-a/securitytesting"
+            }
           ]
         },
         {
@@ -209,9 +294,17 @@
           "status": "Monitoring system",
           "title": "Security Lab IoT",
           "description": "Distributed monitoring project for laboratory environments, focused on temperature and humidity control through sensors and basic security-oriented supervision.",
-          "tags": ["IoT", "Java", "Monitoring", "Sensors"],
+          "tags": [
+            "IoT",
+            "Java",
+            "Monitoring",
+            "Sensors"
+          ],
           "links": [
-            { "label": "Repository", "href": "https://github.com/Juliog-a/security_lab" }
+            {
+              "label": "Repository",
+              "href": "https://github.com/Juliog-a/security_lab"
+            }
           ]
         }
       ],
@@ -255,7 +348,7 @@
       },
       "contact": {
         "title": "Let’s connect",
-        "copy": "Interested in SOC, cybersecurity analyst, detection engineering and incident response roles. Best contact channel: email or LinkedIn.",
+        "copy": "Best contact channel: email or LinkedIn. I use this site as a public technical profile with selected experience, projects and contact information.",
         "links": [
           {
             "label": "Email",
@@ -292,7 +385,7 @@
         "role": "Analista SOC · Detección de amenazas · Respuesta a incidentes",
         "summary": "Perfil de ciberseguridad orientado a operaciones SOC, gestión de incidentes con cliente, experiencia en seguridad interna, flujos SIEM/SOAR y telemetría endpoint. Trabajo en entornos híbridos mejorando triaje, lógica de detección, automatización y reporting técnico.",
         "terminalWhoami": "Analista SOC // Operaciones de ciberseguridad",
-        "availability": "Abierto a roles de ciberseguridad · Irlanda / UK / España",
+        "availability": "Seguridad interna + operaciones SOC con cliente",
         "contactCta": "Contacto",
         "cvEn": "Descargar CV · EN",
         "cvEs": "CV · ES",
@@ -308,9 +401,9 @@
       },
       "highlights": [
         {
-          "value": "2+ yrs",
+          "value": "2+ años",
           "label": "Cybersecurity operations",
-          "detail": "SOC, seguridad interna y exposición operativa en ciberseguridad."
+          "detail": "SOC, seguridad interna y exposición operativa."
         },
         {
           "value": "60–90",
@@ -318,9 +411,9 @@
           "detail": "Triaje de alertas en entornos cloud y on-prem híbridos."
         },
         {
-          "value": "Client",
-          "label": "Facing SOC",
-          "detail": "Escalado, reporting y coordinación con equipos cliente."
+          "value": "Cliente",
+          "label": "SOC con trato cliente",
+          "detail": "Escalado de incidentes, reporting, ticketing y comunicación con equipos cliente."
         },
         {
           "value": "B2",
@@ -399,27 +492,78 @@
       "skills": [
         {
           "title": "SIEM / SOAR",
-          "items": ["Microsoft Sentinel", "Splunk", "Elastic", "Wazuh", "FortiSIEM", "Sentinel Playbooks", "Rule tuning", "Alert triage"]
+          "items": [
+            "Microsoft Sentinel",
+            "Splunk",
+            "Elastic",
+            "Wazuh",
+            "FortiSIEM",
+            "Sentinel Playbooks",
+            "Rule tuning",
+            "Alert triage"
+          ]
         },
         {
           "title": "EDR / XDR",
-          "items": ["CrowdStrike", "Microsoft Defender", "Microsoft 365 Defender", "Telemetría endpoint", "Soporte a contención", "Análisis de procesos"]
+          "items": [
+            "CrowdStrike",
+            "Microsoft Defender",
+            "Microsoft 365 Defender",
+            "Telemetría endpoint",
+            "Soporte a contención",
+            "Análisis de procesos"
+          ]
         },
         {
           "title": "Incident Response",
-          "items": ["Phishing", "Malware/Ransomware", "Accesos no autorizados", "Escalado cliente", "Jira", "ServiceNow", "TheHive", "IRIS", "Reporting técnico"]
+          "items": [
+            "Phishing",
+            "Malware/Ransomware",
+            "Accesos no autorizados",
+            "Escalado cliente",
+            "Jira",
+            "ServiceNow",
+            "TheHive",
+            "IRIS",
+            "Reporting técnico"
+          ]
         },
         {
           "title": "Seguridad interna",
-          "items": ["Linux", "Windows Server", "Bastionado", "Docker", "Proxmox", "RAID", "HP/Dell ProLiant", "Awareness"]
+          "items": [
+            "Linux",
+            "Windows Server",
+            "Bastionado",
+            "Docker",
+            "Proxmox",
+            "RAID",
+            "HP/Dell ProLiant",
+            "Awareness"
+          ]
         },
         {
           "title": "Detection Lab",
-          "items": ["MITRE ATT&CK", "T1486", "Sysmon", "Velociraptor", "Windows telemetry", "PowerShell", "Ransomware simulation"]
+          "items": [
+            "MITRE ATT&CK",
+            "T1486",
+            "Sysmon",
+            "Velociraptor",
+            "Windows telemetry",
+            "PowerShell",
+            "Ransomware simulation"
+          ]
         },
         {
           "title": "Cloud / Automation",
-          "items": ["Azure", "AWS", "Entornos híbridos", "Bash scripting", "SOAR workflows", "Correlación de logs", "Documentación"]
+          "items": [
+            "Azure",
+            "AWS",
+            "Entornos híbridos",
+            "Bash scripting",
+            "SOAR workflows",
+            "Correlación de logs",
+            "Documentación"
+          ]
         }
       ],
       "projectsIntro": "Laboratorios y proyectos que refuerzan mi perfil defensivo: detection engineering, simulaciones controladas, desarrollo web seguro y práctica técnica en ciberseguridad.",
@@ -430,9 +574,18 @@
           "status": "Detection engineering",
           "title": "Velociraptor / MITRE ATT&CK Detection Lab",
           "description": "Laboratorio académico y personal centrado en telemetría endpoint, ejecución controlada de técnicas, mapeo MITRE ATT&CK y flujos de alerta tipo SOC. Basado en Windows telemetry, Sysmon, Velociraptor y análisis de comportamiento asociado a ransomware.",
-          "tags": ["Detection", "Velociraptor", "Sysmon", "MITRE", "Ransomware"],
+          "tags": [
+            "Detection",
+            "Velociraptor",
+            "Sysmon",
+            "MITRE",
+            "Ransomware"
+          ],
           "links": [
-            { "label": "GitHub relacionado", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+            {
+              "label": "GitHub relacionado",
+              "href": "https://github.com/Juliog-a/Controlled-File-Encryption"
+            }
           ]
         },
         {
@@ -440,9 +593,17 @@
           "status": "Ransomware simulation",
           "title": "Controlled File Encryption",
           "description": "Flujo seguro en PowerShell para cifrado y descifrado controlado de archivos. Diseñado para simular comportamiento tipo ransomware de forma reversible en laboratorio para pruebas defensivas y validación de detecciones.",
-          "tags": ["PowerShell", "T1486", "Detection", "Ransomware"],
+          "tags": [
+            "PowerShell",
+            "T1486",
+            "Detection",
+            "Ransomware"
+          ],
           "links": [
-            { "label": "Repositorio", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+            {
+              "label": "Repositorio",
+              "href": "https://github.com/Juliog-a/Controlled-File-Encryption"
+            }
           ]
         },
         {
@@ -450,9 +611,18 @@
           "status": "Secure web platform",
           "title": "Cybersecurity Web Platform",
           "description": "Plataforma de aprendizaje de ciberseguridad construida con Django, React, Tailwind, JWT, 2FA y PostgreSQL, con atención a riesgos comunes como XSS, CSRF, SQL injection y subida de archivos maliciosos.",
-          "tags": ["Django", "React", "JWT", "2FA", "Web Security"],
+          "tags": [
+            "Django",
+            "React",
+            "JWT",
+            "2FA",
+            "Web Security"
+          ],
           "links": [
-            { "label": "Repositorio", "href": "https://github.com/Juliog-a/Chees-Script" }
+            {
+              "label": "Repositorio",
+              "href": "https://github.com/Juliog-a/Chees-Script"
+            }
           ]
         },
         {
@@ -460,9 +630,17 @@
           "status": "Security testing",
           "title": "Security Testing Lab",
           "description": "Repositorio de pruebas, ejercicios y práctica técnica en ciberseguridad. Funciona como base de evidencia para aprendizaje hands-on, pruebas ofensivas/defensivas y experimentación estructurada.",
-          "tags": ["Cybersecurity", "Testing", "Python", "Lab"],
+          "tags": [
+            "Cybersecurity",
+            "Testing",
+            "Python",
+            "Lab"
+          ],
           "links": [
-            { "label": "Repositorio", "href": "https://github.com/Juliog-a/securitytesting" }
+            {
+              "label": "Repositorio",
+              "href": "https://github.com/Juliog-a/securitytesting"
+            }
           ]
         },
         {
@@ -470,9 +648,17 @@
           "status": "Monitoring system",
           "title": "Security Lab IoT",
           "description": "Proyecto de monitorización distribuida para entornos de laboratorio, orientado al control de temperatura y humedad mediante sensores y supervisión básica orientada a seguridad.",
-          "tags": ["IoT", "Java", "Monitoring", "Sensors"],
+          "tags": [
+            "IoT",
+            "Java",
+            "Monitoring",
+            "Sensors"
+          ],
           "links": [
-            { "label": "Repositorio", "href": "https://github.com/Juliog-a/security_lab" }
+            {
+              "label": "Repositorio",
+              "href": "https://github.com/Juliog-a/security_lab"
+            }
           ]
         }
       ],
@@ -516,7 +702,7 @@
       },
       "contact": {
         "title": "Hablemos",
-        "copy": "Interesado en roles de SOC, cybersecurity analyst, detection engineering y respuesta a incidentes. Mejor canal: email o LinkedIn.",
+        "copy": "Mejor canal de contacto: email o LinkedIn. Uso esta web como perfil técnico público con experiencia, proyectos y vías de contacto.",
         "links": [
           {
             "label": "Email",

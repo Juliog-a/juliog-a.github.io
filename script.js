@@ -1,3 +1,5 @@
+document.documentElement.classList.remove('no-js');
+document.documentElement.classList.add('js');
 const state = {
   lang: localStorage.getItem('portfolio.lang') || 'en',
   data: null,
@@ -245,6 +247,10 @@ function setupMobileMenu() {
 }
 
 function setupReveal() {
+  if (!('IntersectionObserver' in window)) {
+    $$('.reveal').forEach((el) => el.classList.add('is-visible'));
+    return;
+  }
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -270,6 +276,7 @@ async function init() {
     setupReveal();
   } catch (error) {
     console.error(error);
+    document.documentElement.classList.remove('js');
     document.body.innerHTML = `
       <main class="shell" style="padding:80px 0">
         <h1>profile.json not loaded</h1>
