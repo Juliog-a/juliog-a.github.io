@@ -1,6 +1,6 @@
-# Julio García-Amorena Reina — Cybersecurity Portfolio
+# Julio García-Amorena — Cybersecurity Portfolio
 
-Personal portfolio designed for GitHub Pages. It uses plain HTML, CSS and JavaScript, with no build step and no external framework.
+Static portfolio ready for GitHub Pages.
 
 ## Structure
 
@@ -9,23 +9,54 @@ Personal portfolio designed for GitHub Pages. It uses plain HTML, CSS and JavaSc
 ├── index.html
 ├── styles.css
 ├── script.js
-├── .nojekyll
-└── assets/
-    ├── CV_Julio_Garcia-Amorena_Reina_EN.pdf
-    └── CV_Julio_Garcia-Amorena_Reina_ES.pdf
+├── data/
+│   └── profile.json
+├── assets/
+│   ├── CV_Julio_Garcia-Amorena_Reina_EN.pdf
+│   └── CV_Julio_Garcia-Amorena_Reina_ES.pdf
+├── 404.html
+└── .nojekyll
 ```
 
-## Features
+## How to update the portfolio
 
-- Responsive one-page portfolio.
-- English/Spanish language toggle.
-- Downloadable CVs.
-- Sections for profile, experience, skills, projects, education and contact.
-- GitHub Pages compatible without Vite, React or build tooling.
+The portfolio content is centralized in:
+
+```text
+data/profile.json
+```
+
+Edit this file to update:
+
+- Hero text
+- Key metrics
+- Experience
+- Skills
+- Projects
+- Education
+- Certifications
+- Contact links
+- English / Spanish texts
+
+The CV files are stored in:
+
+```text
+assets/
+```
+
+When you update your CV, replace the PDF files and update `data/profile.json` if the content has changed.
 
 ## Local preview
 
-Open `index.html` directly in your browser, or run a simple local server:
+Because the page loads `data/profile.json`, do not open `index.html` directly with a double click. Use a local server.
+
+Recommended options:
+
+### VS Code
+
+Use the **Live Server** extension.
+
+### Python
 
 ```bash
 python -m http.server 8000
@@ -37,39 +68,41 @@ Then open:
 http://localhost:8000
 ```
 
-## Recommended repository name
+## Deploy on GitHub Pages
 
-For a personal GitHub Pages site, create the repository as:
+For a personal site, create this repository:
 
 ```text
 juliog-a.github.io
 ```
 
-This should publish at:
+Upload all files to the root of the repository, so `index.html` is directly visible at the top level.
+
+Then configure:
+
+```text
+Settings → Pages → Deploy from a branch
+Branch: main
+Folder: /root
+```
+
+Final URL:
 
 ```text
 https://juliog-a.github.io/
 ```
 
-## Deploy with GitHub Pages
+## Design notes
 
-1. Create a new public repository named `juliog-a.github.io`.
-2. Upload all files from this folder to the repository root.
-3. Go to `Settings` → `Pages`.
-4. Under `Build and deployment`, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save.
-6. Open the published site from the URL shown in the Pages settings.
+- Fully static HTML/CSS/JS.
+- No React, Vite, build step or dependencies.
+- Mechanical monospace typography inspired by cybersecurity tooling.
+- English by default, Spanish available through the language switcher.
+- GitHub Pages compatible.
 
-## What to update before publishing
+## Recommended next improvements
 
-- Replace CV PDFs when you update your CV.
-- Add a profile image only if it is professional and consistent with the site design.
-- Keep the project descriptions accurate and avoid claiming unfinished certifications or roles.
-- Pin your best GitHub repositories: `Controlled-File-Encryption`, `securitytesting`, `Chees-Script`, and `security_lab`.
-
-## Design rationale
-
-The portfolio is intentionally static and lightweight. This avoids deployment problems, keeps the code maintainable, and makes the site easy to edit from GitHub directly.
+- Add project screenshots in `assets/projects/`.
+- Pin the strongest GitHub repositories.
+- Improve README files for each project.
+- Add a custom domain later if needed.

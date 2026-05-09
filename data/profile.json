@@ -1,0 +1,543 @@
+{
+  "meta": {
+    "title": "Julio García-Amorena — SOC Analyst",
+    "version": "2.0"
+  },
+  "identity": {
+    "displayName": "Julio García-Amorena",
+    "fullName": "Julio García-Amorena Reina",
+    "handle": "Juliog-a",
+    "email": "juliogarciaamorena@gmail.com",
+    "location": "Seville, Spain"
+  },
+  "links": {
+    "github": "https://github.com/Juliog-a",
+    "linkedin": "https://www.linkedin.com/in/julio-garc%C3%ADa-amorena-reina-a51957227/",
+    "cvEn": "assets/CV_Julio_Garcia-Amorena_Reina_EN.pdf",
+    "cvEs": "assets/CV_Julio_Garcia-Amorena_Reina_ES.pdf"
+  },
+  "i18n": {
+    "en": {
+      "nav": {
+        "about": "About",
+        "experience": "Experience",
+        "skills": "Stack",
+        "projects": "Projects",
+        "education": "Education",
+        "contact": "Contact"
+      },
+      "hero": {
+        "eyebrow": "SOC OPERATIONS // DETECTION // RESPONSE",
+        "role": "SOC Analyst · Threat Detection · Incident Response",
+        "summary": "Cybersecurity profile focused on SOC operations, client-facing incident handling, internal security exposure, SIEM/SOAR workflows and endpoint telemetry. I work across hybrid environments, improving alert triage, detection logic, automation and technical reporting.",
+        "terminalWhoami": "SOC Analyst // Cybersecurity Operations",
+        "availability": "Open to cybersecurity roles · Ireland / UK / Spain",
+        "contactCta": "Contact",
+        "cvEn": "Download CV · EN",
+        "cvEs": "CV · ES",
+        "tags": [
+          "SOC Operations",
+          "Client-facing IR",
+          "Internal Security",
+          "SIEM/SOAR",
+          "EDR/XDR",
+          "Threat Hunting",
+          "Hybrid Environments"
+        ]
+      },
+      "highlights": [
+        {
+          "value": "2+ yrs",
+          "label": "Cybersecurity operations",
+          "detail": "SOC, internal IT security and operational security exposure."
+        },
+        {
+          "value": "60–90",
+          "label": "Daily alerts",
+          "detail": "Security alert triage across hybrid cloud and on-prem environments."
+        },
+        {
+          "value": "Client",
+          "label": "Facing SOC",
+          "detail": "Incident escalation, reporting and coordination with client teams."
+        },
+        {
+          "value": "B2",
+          "label": "English",
+          "detail": "Professional working proficiency for international teams."
+        }
+      ],
+      "sections": {
+        "profile": "PROFILE",
+        "aboutTitle": "About",
+        "career": "CAREER",
+        "experienceTitle": "Professional experience",
+        "stack": "STACK",
+        "skillsTitle": "Technical stack",
+        "evidence": "EVIDENCE",
+        "projectsTitle": "Selected projects",
+        "credentials": "CREDENTIALS",
+        "educationTitle": "Education & certifications",
+        "contact": "CONTACT"
+      },
+      "about": [
+        "I am a cybersecurity profile focused on <strong>SOC operations, threat detection, incident response and SIEM/SOAR optimization</strong>. My work combines operational alert triage with investigation, documentation, client communication and detection improvement.",
+        "I have worked across both sides of security operations: <strong>internal IT/security environments</strong>, including systems administration, hardening, Docker, Proxmox and infrastructure support; and <strong>client-facing SOC environments</strong>, handling alerts, incidents, escalation workflows and reporting.",
+        "My technical direction is defensive security: endpoint telemetry, log correlation, ransomware-related behaviors, SOAR workflows and practical detection engineering. I value evidence, repeatability and clear communication over generic security buzzwords."
+      ],
+      "focus": [
+        {
+          "title": "Client-facing SOC operations",
+          "text": "Alert triage, incident escalation, case documentation and coordination through tools such as Jira, ServiceNow, TheHive and IRIS."
+        },
+        {
+          "title": "Internal security background",
+          "text": "Linux/Windows administration, system hardening, Proxmox, Docker, server configuration and internal security awareness training."
+        },
+        {
+          "title": "Detection engineering mindset",
+          "text": "Interest in MITRE ATT&CK mapping, endpoint telemetry, Sysmon/Velociraptor-style evidence, SIEM tuning and controlled lab validation."
+        }
+      ],
+      "experience": [
+        {
+          "period": "Feb 2025 — Present",
+          "role": "SOC Analyst",
+          "company": "Fujitsu",
+          "location": "Seville, Spain",
+          "bullets": [
+            "Monitor and triage 60–90 daily security alerts across hybrid cloud and on-prem environments using Microsoft Sentinel, Elastic, Splunk, Wazuh, FortiSIEM and CrowdStrike.",
+            "Investigate, contain and escalate incidents involving phishing, malware/ransomware, unauthorized access and suspicious endpoint activity.",
+            "Support client-facing security operations through incident reporting, ticket handling, escalation workflows and coordination with technical stakeholders.",
+            "Contribute to SIEM rule tuning, SOAR playbooks and operational documentation to reduce noise, improve detection quality and accelerate response workflows.",
+            "Support onboarding and internal knowledge sharing around Elastic/Wazuh, Microsoft Sentinel, Mimecast and operational security procedures."
+          ]
+        },
+        {
+          "period": "Sep 2024 — Feb 2025",
+          "role": "IT & Security Intern",
+          "company": "Skylife Engineering S.L.",
+          "location": "Seville, Spain",
+          "bullets": [
+            "Administered and hardened Linux and Windows systems in local and virtualized environments using Proxmox.",
+            "Configured physical servers, RAID architectures and Docker-based services for corporate infrastructure.",
+            "Supported internal IT/security operations, system monitoring, network support and automation of administrative tasks through scripting.",
+            "Designed and delivered internal security training on ARP spoofing, phishing and practical security awareness."
+          ]
+        },
+        {
+          "period": "Jun 2024 — Sep 2024",
+          "role": "Coordinator",
+          "company": "Camp Airy & Louise",
+          "location": "Washington, D.C., USA",
+          "bullets": [
+            "Coordinated activities and supported multicultural teams in an international environment, strengthening communication, ownership and leadership under pressure."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "title": "SIEM / SOAR",
+          "items": ["Microsoft Sentinel", "Splunk", "Elastic", "Wazuh", "FortiSIEM", "Sentinel Playbooks", "Rule tuning", "Alert triage"]
+        },
+        {
+          "title": "EDR / XDR",
+          "items": ["CrowdStrike", "Microsoft Defender", "Microsoft 365 Defender", "Endpoint telemetry", "Containment support", "Suspicious process analysis"]
+        },
+        {
+          "title": "Incident Response",
+          "items": ["Phishing", "Malware/Ransomware", "Unauthorized access", "Client escalation", "Jira", "ServiceNow", "TheHive", "IRIS", "Technical reporting"]
+        },
+        {
+          "title": "Internal Security",
+          "items": ["Linux", "Windows Server", "Hardening", "Docker", "Proxmox", "RAID", "HP/Dell ProLiant", "Security awareness"]
+        },
+        {
+          "title": "Detection Lab",
+          "items": ["MITRE ATT&CK", "T1486", "Sysmon", "Velociraptor", "Windows telemetry", "PowerShell", "Ransomware simulation"]
+        },
+        {
+          "title": "Cloud / Automation",
+          "items": ["Azure", "AWS", "Hybrid environments", "Bash scripting", "SOAR workflows", "Log correlation", "Documentation"]
+        }
+      ],
+      "projectsIntro": "Labs and projects that support my defensive security profile: detection engineering, controlled simulations, secure web development and practical cybersecurity testing.",
+      "projectFilterAll": "all",
+      "projects": [
+        {
+          "code": "LAB-01",
+          "status": "Detection engineering",
+          "title": "Velociraptor / MITRE ATT&CK Detection Lab",
+          "description": "Academic and personal lab focused on endpoint telemetry, controlled technique execution, MITRE ATT&CK mapping and SOC-style alerting workflows. Built around Windows telemetry, Sysmon, Velociraptor and ransomware-related behavior analysis.",
+          "tags": ["Detection", "Velociraptor", "Sysmon", "MITRE", "Ransomware"],
+          "links": [
+            { "label": "Related GitHub", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+          ]
+        },
+        {
+          "code": "LAB-02",
+          "status": "Ransomware simulation",
+          "title": "Controlled File Encryption",
+          "description": "Safe PowerShell workflow for controlled file encryption and decryption. Designed to simulate ransomware-style encryption behavior in a reversible lab environment for defensive testing and detection validation.",
+          "tags": ["PowerShell", "T1486", "Detection", "Ransomware"],
+          "links": [
+            { "label": "Repository", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+          ]
+        },
+        {
+          "code": "APP-01",
+          "status": "Secure web platform",
+          "title": "Cybersecurity Web Platform",
+          "description": "Cybersecurity learning platform built with Django, React, Tailwind, JWT, 2FA and PostgreSQL, with attention to common risks such as XSS, CSRF, SQL injection and malicious file uploads.",
+          "tags": ["Django", "React", "JWT", "2FA", "Web Security"],
+          "links": [
+            { "label": "Repository", "href": "https://github.com/Juliog-a/Chees-Script" }
+          ]
+        },
+        {
+          "code": "LAB-03",
+          "status": "Security testing",
+          "title": "Security Testing Lab",
+          "description": "Repository of cybersecurity tests, exercises and technical practice. Used as an evidence base for hands-on learning, offensive/defensive testing and structured security experimentation.",
+          "tags": ["Cybersecurity", "Testing", "Python", "Lab"],
+          "links": [
+            { "label": "Repository", "href": "https://github.com/Juliog-a/securitytesting" }
+          ]
+        },
+        {
+          "code": "IOT-01",
+          "status": "Monitoring system",
+          "title": "Security Lab IoT",
+          "description": "Distributed monitoring project for laboratory environments, focused on temperature and humidity control through sensors and basic security-oriented supervision.",
+          "tags": ["IoT", "Java", "Monitoring", "Sensors"],
+          "links": [
+            { "label": "Repository", "href": "https://github.com/Juliog-a/security_lab" }
+          ]
+        }
+      ],
+      "education": [
+        {
+          "period": "Oct 2025 — Present",
+          "title": "Master’s Degree in Cybersecurity — Information and Communications Security",
+          "institution": "Escuela Técnica Superior de Ingeniería, University of Seville"
+        },
+        {
+          "period": "Sep 2020 — Jun 2025",
+          "title": "Degree in Computer Engineering",
+          "institution": "University of Seville"
+        }
+      ],
+      "certifications": [
+        {
+          "period": "Mar 2025",
+          "title": "Microsoft SC-900: Security, Compliance, and Identity Fundamentals",
+          "issuer": "Microsoft"
+        },
+        {
+          "period": "Jun 2025",
+          "title": "Introduction to Cybersecurity",
+          "issuer": "University of Nebrija"
+        },
+        {
+          "period": "B2",
+          "title": "English",
+          "issuer": "Professional working proficiency"
+        },
+        {
+          "period": "Native",
+          "title": "Spanish",
+          "issuer": "Native language"
+        }
+      ],
+      "credentialLabels": {
+        "educationLabel": "Education",
+        "certLabel": "Certifications / Languages"
+      },
+      "contact": {
+        "title": "Let’s connect",
+        "copy": "Interested in SOC, cybersecurity analyst, detection engineering and incident response roles. Best contact channel: email or LinkedIn.",
+        "links": [
+          {
+            "label": "Email",
+            "value": "juliogarciaamorena@gmail.com",
+            "href": "mailto:juliogarciaamorena@gmail.com",
+            "external": false
+          },
+          {
+            "label": "LinkedIn",
+            "value": "julio-garcía-amorena-reina",
+            "href": "https://www.linkedin.com/in/julio-garc%C3%ADa-amorena-reina-a51957227/",
+            "external": true
+          },
+          {
+            "label": "GitHub",
+            "value": "@Juliog-a",
+            "href": "https://github.com/Juliog-a",
+            "external": true
+          }
+        ]
+      }
+    },
+    "es": {
+      "nav": {
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "skills": "Stack",
+        "projects": "Proyectos",
+        "education": "Formación",
+        "contact": "Contacto"
+      },
+      "hero": {
+        "eyebrow": "OPERACIONES SOC // DETECCIÓN // RESPUESTA",
+        "role": "Analista SOC · Detección de amenazas · Respuesta a incidentes",
+        "summary": "Perfil de ciberseguridad orientado a operaciones SOC, gestión de incidentes con cliente, experiencia en seguridad interna, flujos SIEM/SOAR y telemetría endpoint. Trabajo en entornos híbridos mejorando triaje, lógica de detección, automatización y reporting técnico.",
+        "terminalWhoami": "Analista SOC // Operaciones de ciberseguridad",
+        "availability": "Abierto a roles de ciberseguridad · Irlanda / UK / España",
+        "contactCta": "Contacto",
+        "cvEn": "Descargar CV · EN",
+        "cvEs": "CV · ES",
+        "tags": [
+          "SOC Operations",
+          "Trato con cliente",
+          "Seguridad interna",
+          "SIEM/SOAR",
+          "EDR/XDR",
+          "Threat Hunting",
+          "Entornos híbridos"
+        ]
+      },
+      "highlights": [
+        {
+          "value": "2+ yrs",
+          "label": "Cybersecurity operations",
+          "detail": "SOC, seguridad interna y exposición operativa en ciberseguridad."
+        },
+        {
+          "value": "60–90",
+          "label": "Alertas diarias",
+          "detail": "Triaje de alertas en entornos cloud y on-prem híbridos."
+        },
+        {
+          "value": "Client",
+          "label": "Facing SOC",
+          "detail": "Escalado, reporting y coordinación con equipos cliente."
+        },
+        {
+          "value": "B2",
+          "label": "English",
+          "detail": "Competencia profesional para equipos internacionales."
+        }
+      ],
+      "sections": {
+        "profile": "PERFIL",
+        "aboutTitle": "Sobre mí",
+        "career": "TRAYECTORIA",
+        "experienceTitle": "Experiencia profesional",
+        "stack": "STACK",
+        "skillsTitle": "Stack técnico",
+        "evidence": "EVIDENCIA",
+        "projectsTitle": "Proyectos destacados",
+        "credentials": "CREDENCIALES",
+        "educationTitle": "Formación y certificaciones",
+        "contact": "CONTACTO"
+      },
+      "about": [
+        "Soy un perfil de ciberseguridad centrado en <strong>operaciones SOC, detección de amenazas, respuesta a incidentes y optimización SIEM/SOAR</strong>. Combino triaje operativo de alertas con investigación, documentación, comunicación con cliente y mejora de detecciones.",
+        "He trabajado en ambos lados de la operación de seguridad: <strong>entornos internos de IT/seguridad</strong>, incluyendo administración de sistemas, bastionado, Docker, Proxmox e infraestructura; y <strong>entornos SOC orientados a cliente</strong>, gestionando alertas, incidentes, escalados y reporting.",
+        "Mi dirección técnica es seguridad defensiva: telemetría endpoint, correlación de logs, comportamientos asociados a ransomware, flujos SOAR y detection engineering práctico. Priorizo evidencia, repetibilidad y comunicación clara frente a buzzwords genéricas."
+      ],
+      "focus": [
+        {
+          "title": "SOC con trato cliente",
+          "text": "Triaje de alertas, escalado de incidentes, documentación de casos y coordinación mediante Jira, ServiceNow, TheHive e IRIS."
+        },
+        {
+          "title": "Base en seguridad interna",
+          "text": "Administración Linux/Windows, bastionado, Proxmox, Docker, configuración de servidores y formación interna de concienciación."
+        },
+        {
+          "title": "Mentalidad detection engineering",
+          "text": "Interés en MITRE ATT&CK, telemetría endpoint, evidencia tipo Sysmon/Velociraptor, tuning SIEM y validación en laboratorio."
+        }
+      ],
+      "experience": [
+        {
+          "period": "Feb 2025 — Actualidad",
+          "role": "Analista SOC",
+          "company": "Fujitsu",
+          "location": "Sevilla, España",
+          "bullets": [
+            "Monitorización y triaje de 60–90 alertas de seguridad diarias en entornos híbridos cloud y on-prem con Microsoft Sentinel, Elastic, Splunk, Wazuh, FortiSIEM y CrowdStrike.",
+            "Investigación, contención y escalado de incidentes de phishing, malware/ransomware, accesos no autorizados y actividad sospechosa en endpoint.",
+            "Soporte a operaciones SOC orientadas a cliente mediante reporting de incidentes, gestión de tickets, flujos de escalado y coordinación con equipos técnicos.",
+            "Contribución al ajuste de reglas SIEM, playbooks SOAR y documentación operativa para reducir ruido, mejorar la detección y acelerar flujos de respuesta.",
+            "Apoyo en onboarding y transferencia de conocimiento interno sobre Elastic/Wazuh, Microsoft Sentinel, Mimecast y procedimientos operativos."
+          ]
+        },
+        {
+          "period": "Sep 2024 — Feb 2025",
+          "role": "Becario de IT y Seguridad",
+          "company": "Skylife Engineering S.L.",
+          "location": "Sevilla, España",
+          "bullets": [
+            "Administración y bastionado de sistemas Linux y Windows en entornos locales y virtualizados con Proxmox.",
+            "Configuración de servidores físicos, arquitecturas RAID y servicios Docker para infraestructura corporativa.",
+            "Soporte a operaciones internas de IT/seguridad, monitorización de sistemas y redes, y automatización de tareas administrativas mediante scripting.",
+            "Diseño e impartición de formaciones internas sobre ARP spoofing, phishing y buenas prácticas de seguridad."
+          ]
+        },
+        {
+          "period": "Jun 2024 — Sep 2024",
+          "role": "Coordinador",
+          "company": "Camp Airy & Louise",
+          "location": "Washington, D.C., USA",
+          "bullets": [
+            "Coordinación de actividades y apoyo a equipos multiculturales en un entorno internacional, reforzando comunicación, responsabilidad y liderazgo bajo presión."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "title": "SIEM / SOAR",
+          "items": ["Microsoft Sentinel", "Splunk", "Elastic", "Wazuh", "FortiSIEM", "Sentinel Playbooks", "Rule tuning", "Alert triage"]
+        },
+        {
+          "title": "EDR / XDR",
+          "items": ["CrowdStrike", "Microsoft Defender", "Microsoft 365 Defender", "Telemetría endpoint", "Soporte a contención", "Análisis de procesos"]
+        },
+        {
+          "title": "Incident Response",
+          "items": ["Phishing", "Malware/Ransomware", "Accesos no autorizados", "Escalado cliente", "Jira", "ServiceNow", "TheHive", "IRIS", "Reporting técnico"]
+        },
+        {
+          "title": "Seguridad interna",
+          "items": ["Linux", "Windows Server", "Bastionado", "Docker", "Proxmox", "RAID", "HP/Dell ProLiant", "Awareness"]
+        },
+        {
+          "title": "Detection Lab",
+          "items": ["MITRE ATT&CK", "T1486", "Sysmon", "Velociraptor", "Windows telemetry", "PowerShell", "Ransomware simulation"]
+        },
+        {
+          "title": "Cloud / Automation",
+          "items": ["Azure", "AWS", "Entornos híbridos", "Bash scripting", "SOAR workflows", "Correlación de logs", "Documentación"]
+        }
+      ],
+      "projectsIntro": "Laboratorios y proyectos que refuerzan mi perfil defensivo: detection engineering, simulaciones controladas, desarrollo web seguro y práctica técnica en ciberseguridad.",
+      "projectFilterAll": "todos",
+      "projects": [
+        {
+          "code": "LAB-01",
+          "status": "Detection engineering",
+          "title": "Velociraptor / MITRE ATT&CK Detection Lab",
+          "description": "Laboratorio académico y personal centrado en telemetría endpoint, ejecución controlada de técnicas, mapeo MITRE ATT&CK y flujos de alerta tipo SOC. Basado en Windows telemetry, Sysmon, Velociraptor y análisis de comportamiento asociado a ransomware.",
+          "tags": ["Detection", "Velociraptor", "Sysmon", "MITRE", "Ransomware"],
+          "links": [
+            { "label": "GitHub relacionado", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+          ]
+        },
+        {
+          "code": "LAB-02",
+          "status": "Ransomware simulation",
+          "title": "Controlled File Encryption",
+          "description": "Flujo seguro en PowerShell para cifrado y descifrado controlado de archivos. Diseñado para simular comportamiento tipo ransomware de forma reversible en laboratorio para pruebas defensivas y validación de detecciones.",
+          "tags": ["PowerShell", "T1486", "Detection", "Ransomware"],
+          "links": [
+            { "label": "Repositorio", "href": "https://github.com/Juliog-a/Controlled-File-Encryption" }
+          ]
+        },
+        {
+          "code": "APP-01",
+          "status": "Secure web platform",
+          "title": "Cybersecurity Web Platform",
+          "description": "Plataforma de aprendizaje de ciberseguridad construida con Django, React, Tailwind, JWT, 2FA y PostgreSQL, con atención a riesgos comunes como XSS, CSRF, SQL injection y subida de archivos maliciosos.",
+          "tags": ["Django", "React", "JWT", "2FA", "Web Security"],
+          "links": [
+            { "label": "Repositorio", "href": "https://github.com/Juliog-a/Chees-Script" }
+          ]
+        },
+        {
+          "code": "LAB-03",
+          "status": "Security testing",
+          "title": "Security Testing Lab",
+          "description": "Repositorio de pruebas, ejercicios y práctica técnica en ciberseguridad. Funciona como base de evidencia para aprendizaje hands-on, pruebas ofensivas/defensivas y experimentación estructurada.",
+          "tags": ["Cybersecurity", "Testing", "Python", "Lab"],
+          "links": [
+            { "label": "Repositorio", "href": "https://github.com/Juliog-a/securitytesting" }
+          ]
+        },
+        {
+          "code": "IOT-01",
+          "status": "Monitoring system",
+          "title": "Security Lab IoT",
+          "description": "Proyecto de monitorización distribuida para entornos de laboratorio, orientado al control de temperatura y humedad mediante sensores y supervisión básica orientada a seguridad.",
+          "tags": ["IoT", "Java", "Monitoring", "Sensors"],
+          "links": [
+            { "label": "Repositorio", "href": "https://github.com/Juliog-a/security_lab" }
+          ]
+        }
+      ],
+      "education": [
+        {
+          "period": "Oct 2025 — Actualidad",
+          "title": "Máster en Ciberseguridad — Seguridad en la Información y las Comunicaciones",
+          "institution": "Escuela Técnica Superior de Ingeniería, Universidad de Sevilla"
+        },
+        {
+          "period": "Sep 2020 — Jun 2025",
+          "title": "Grado en Ingeniería Informática",
+          "institution": "Universidad de Sevilla"
+        }
+      ],
+      "certifications": [
+        {
+          "period": "Mar 2025",
+          "title": "Microsoft SC-900: Security, Compliance, and Identity Fundamentals",
+          "issuer": "Microsoft"
+        },
+        {
+          "period": "Jun 2025",
+          "title": "Introducción a la Ciberseguridad",
+          "issuer": "Universidad de Nebrija"
+        },
+        {
+          "period": "B2",
+          "title": "Inglés",
+          "issuer": "Competencia profesional"
+        },
+        {
+          "period": "Nativo",
+          "title": "Español",
+          "issuer": "Lengua nativa"
+        }
+      ],
+      "credentialLabels": {
+        "educationLabel": "Formación",
+        "certLabel": "Certificaciones / Idiomas"
+      },
+      "contact": {
+        "title": "Hablemos",
+        "copy": "Interesado en roles de SOC, cybersecurity analyst, detection engineering y respuesta a incidentes. Mejor canal: email o LinkedIn.",
+        "links": [
+          {
+            "label": "Email",
+            "value": "juliogarciaamorena@gmail.com",
+            "href": "mailto:juliogarciaamorena@gmail.com",
+            "external": false
+          },
+          {
+            "label": "LinkedIn",
+            "value": "julio-garcía-amorena-reina",
+            "href": "https://www.linkedin.com/in/julio-garc%C3%ADa-amorena-reina-a51957227/",
+            "external": true
+          },
+          {
+            "label": "GitHub",
+            "value": "@Juliog-a",
+            "href": "https://github.com/Juliog-a",
+            "external": true
+          }
+        ]
+      }
+    }
+  }
+}

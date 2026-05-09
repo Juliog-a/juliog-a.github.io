@@ -3,155 +3,166 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Julio García-Amorena Reina — SOC Analyst focused on threat detection, incident response, SIEM/SOAR, EDR/XDR and cybersecurity engineering." />
-  <meta name="theme-color" content="#071017" />
-  <meta property="og:title" content="Julio García-Amorena Reina — SOC Analyst" />
-  <meta property="og:description" content="Cybersecurity portfolio focused on SOC operations, threat detection, incident response, SIEM/SOAR and security engineering projects." />
+  <meta name="description" content="Julio García-Amorena — SOC Analyst portfolio focused on cybersecurity operations, threat detection, incident response, SIEM/SOAR, EDR/XDR and detection engineering." />
+  <meta name="theme-color" content="#06070a" />
+  <meta property="og:title" content="Julio García-Amorena — SOC Analyst" />
+  <meta property="og:description" content="Cybersecurity portfolio: SOC operations, client-facing incident response, internal security, SIEM/SOAR, EDR/XDR and detection engineering labs." />
   <meta property="og:type" content="website" />
-  <title>Julio García-Amorena Reina — SOC Analyst</title>
+  <title>Julio García-Amorena — SOC Analyst</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Go to top">
-      <span class="brand-mark">JG</span><span class="brand-path">/portfolio</span>
-    </a>
+  <div class="fx-grid" aria-hidden="true"></div>
+  <div class="fx-scan" aria-hidden="true"></div>
+  <div class="fx-orb fx-orb-a" aria-hidden="true"></div>
+  <div class="fx-orb fx-orb-b" aria-hidden="true"></div>
 
-    <nav class="nav" aria-label="Primary navigation">
+  <header class="topbar" id="top">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-bracket">[</span><span class="brand-core">JGA</span><span class="brand-bracket">]</span>
+        <span class="brand-path">~/sec-portfolio</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#skills" data-i18n="nav.skills">Stack</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="topbar-actions">
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Change language">
+          <span class="lang-toggle__current" id="langCurrent">EN</span>
+          <span class="lang-toggle__sep">/</span>
+          <span class="lang-toggle__next" id="langNext">ES</span>
+        </button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
       <a href="#about" data-i18n="nav.about">About</a>
       <a href="#experience" data-i18n="nav.experience">Experience</a>
-      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#skills" data-i18n="nav.skills">Stack</a>
       <a href="#projects" data-i18n="nav.projects">Projects</a>
       <a href="#education" data-i18n="nav.education">Education</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
-
-    <div class="header-actions">
-      <button class="lang-toggle" id="langToggle" type="button" aria-label="Change language" aria-pressed="false">
-        <span id="langLabel">ES</span>
-      </button>
-      <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
   </header>
 
-  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
-    <a href="#about" data-i18n="nav.about">About</a>
-    <a href="#experience" data-i18n="nav.experience">Experience</a>
-    <a href="#skills" data-i18n="nav.skills">Skills</a>
-    <a href="#projects" data-i18n="nav.projects">Projects</a>
-    <a href="#education" data-i18n="nav.education">Education</a>
-    <a href="#contact" data-i18n="nav.contact">Contact</a>
-  </nav>
-
   <main id="main">
-    <section class="hero section-shell" id="home">
-      <div class="grid-layer" aria-hidden="true"></div>
-      <div class="glow glow-one" aria-hidden="true"></div>
-      <div class="glow glow-two" aria-hidden="true"></div>
-
-      <div class="hero-content reveal">
-        <p class="eyebrow" data-i18n="hero.eyebrow">SOC · Threat Detection · Incident Response</p>
-        <h1>
-          Julio García-<br />
-          <span>Amorena Reina</span>
-        </h1>
-        <p class="hero-role" data-i18n="hero.role">SOC Analyst focused on detection engineering, SIEM/SOAR and endpoint response.</p>
-        <p class="hero-text" data-i18n="hero.text">
-          I work in hybrid cloud and on-prem environments, triaging security alerts, investigating incidents and improving detection workflows through SIEM rule tuning, SOAR automation and structured reporting.
+    <section class="hero shell" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">SOC OPERATIONS // DETECTION // RESPONSE</p>
+        <h1 id="heroName">Julio García-Amorena</h1>
+        <p class="role-line" id="heroRole">SOC Analyst · Threat Detection · Incident Response</p>
+        <p class="hero-text" id="heroSummary">
+          Cybersecurity profile focused on SOC operations, SIEM/SOAR workflows, endpoint telemetry and client-facing incident response.
         </p>
 
-        <div class="badge-row" id="heroBadges" aria-label="Key technologies"></div>
+        <div class="hero-tags" id="heroTags" aria-label="Profile tags"></div>
 
         <div class="cta-row">
-          <a class="btn btn-primary" href="assets/CV_Julio_Garcia-Amorena_Reina_EN.pdf" download data-i18n="hero.cvEn">Download CV · EN</a>
-          <a class="btn btn-secondary" href="assets/CV_Julio_Garcia-Amorena_Reina_ES.pdf" download data-i18n="hero.cvEs">Download CV · ES</a>
-          <a class="btn btn-ghost" href="#projects" data-i18n="hero.projects">View projects</a>
+          <a class="btn btn-primary" id="contactCta" href="#contact" data-i18n="hero.contactCta">Contact</a>
+          <a class="btn btn-secondary" id="cvEn" href="assets/CV_Julio_Garcia-Amorena_Reina_EN.pdf" download data-i18n="hero.cvEn">Download CV · EN</a>
+          <a class="btn btn-ghost" id="cvEs" href="assets/CV_Julio_Garcia-Amorena_Reina_ES.pdf" download data-i18n="hero.cvEs">CV · ES</a>
         </div>
       </div>
 
-      <aside class="status-card reveal" aria-label="Professional status">
-        <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
-        <div class="status-topline"><span class="pulse-dot"></span><span data-i18n="status.available">Open to cybersecurity opportunities</span></div>
-        <dl class="status-list" id="statusList"></dl>
+      <aside class="terminal-card reveal" aria-label="Key professional signals">
+        <div class="terminal-head">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          <span class="terminal-title">profile.signal</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-line"><span class="prompt">$</span> whoami</div>
+          <div class="terminal-output" id="terminalWhoami">SOC Analyst // Cybersecurity Operations</div>
+          <div class="signal-grid" id="highlightGrid"></div>
+          <div class="terminal-line terminal-line--last"><span class="prompt">$</span> status --market</div>
+          <div class="availability" id="availabilityText">Open to cybersecurity roles · Ireland / UK / Spain</div>
+        </div>
       </aside>
     </section>
 
-    <section class="section-shell section" id="about">
+    <section class="section shell" id="about">
       <div class="section-head reveal">
-        <p class="section-kicker">01 / <span data-i18n="sections.aboutKicker">profile</span></p>
-        <h2 data-i18n="sections.aboutTitle">About me</h2>
+        <p class="section-code">[01] // <span data-i18n="sections.profile">PROFILE</span></p>
+        <h2 data-i18n="sections.aboutTitle">About</h2>
       </div>
       <div class="about-grid reveal">
-        <div class="copy-block" id="aboutCopy"></div>
-        <div class="metric-grid" id="metricGrid" aria-label="Profile metrics"></div>
+        <div class="copy-panel" id="aboutText"></div>
+        <div class="focus-grid" id="focusGrid"></div>
       </div>
     </section>
 
-    <section class="section-shell section alt" id="experience">
+    <section class="section shell" id="experience">
       <div class="section-head reveal">
-        <p class="section-kicker">02 / <span data-i18n="sections.experienceKicker">career</span></p>
-        <h2 data-i18n="sections.experienceTitle">Professional experience</h2>
+        <p class="section-code">[02] // <span data-i18n="sections.career">CAREER</span></p>
+        <h2 data-i18n="sections.experienceTitle">Experience</h2>
       </div>
       <div class="timeline reveal" id="experienceList"></div>
     </section>
 
-    <section class="section-shell section" id="skills">
+    <section class="section shell" id="skills">
       <div class="section-head reveal">
-        <p class="section-kicker">03 / <span data-i18n="sections.skillsKicker">stack</span></p>
-        <h2 data-i18n="sections.skillsTitle">Technical skills</h2>
+        <p class="section-code">[03] // <span data-i18n="sections.stack">STACK</span></p>
+        <h2 data-i18n="sections.skillsTitle">Technical stack</h2>
       </div>
       <div class="skills-grid reveal" id="skillsGrid"></div>
     </section>
 
-    <section class="section-shell section alt" id="projects">
-      <div class="section-head reveal">
-        <p class="section-kicker">04 / <span data-i18n="sections.projectsKicker">evidence</span></p>
-        <h2 data-i18n="sections.projectsTitle">Selected projects</h2>
-        <p class="section-intro" data-i18n="sections.projectsIntro">A compact selection of labs and projects that support my defensive security profile.</p>
+    <section class="section shell" id="projects">
+      <div class="section-head section-head--split reveal">
+        <div>
+          <p class="section-code">[04] // <span data-i18n="sections.evidence">EVIDENCE</span></p>
+          <h2 data-i18n="sections.projectsTitle">Selected projects</h2>
+        </div>
+        <p class="section-intro" id="projectsIntro">Labs and projects that support my defensive security profile.</p>
       </div>
+      <div class="project-toolbar reveal" id="projectToolbar"></div>
       <div class="projects-grid reveal" id="projectsGrid"></div>
     </section>
 
-    <section class="section-shell section" id="education">
+    <section class="section shell" id="education">
       <div class="section-head reveal">
-        <p class="section-kicker">05 / <span data-i18n="sections.educationKicker">background</span></p>
+        <p class="section-code">[05] // <span data-i18n="sections.credentials">CREDENTIALS</span></p>
         <h2 data-i18n="sections.educationTitle">Education & certifications</h2>
       </div>
-      <div class="education-grid reveal">
-        <div class="panel">
-          <h3 data-i18n="education.degreeTitle">Education</h3>
+      <div class="credentials-grid reveal">
+        <div class="data-panel">
+          <h3 data-i18n="credentialLabels.educationLabel">Education</h3>
           <div id="educationList"></div>
         </div>
-        <div class="panel">
-          <h3 data-i18n="education.certTitle">Certifications & training</h3>
+        <div class="data-panel">
+          <h3 data-i18n="credentialLabels.certLabel">Certifications / Languages</h3>
           <div id="certList"></div>
         </div>
       </div>
     </section>
 
-    <section class="section-shell section contact-section" id="contact">
-      <div class="section-head reveal">
-        <p class="section-kicker">06 / <span data-i18n="sections.contactKicker">contact</span></p>
-        <h2 data-i18n="sections.contactTitle">Let’s connect</h2>
-      </div>
-      <div class="contact-grid reveal">
+    <section class="section shell contact-section" id="contact">
+      <div class="contact-panel reveal">
         <div>
-          <p class="contact-copy" data-i18n="contact.copy">
-            Interested in SOC, detection engineering, incident response or cybersecurity analyst roles. Best contact channel: email or LinkedIn.
-          </p>
+          <p class="section-code">[06] // <span data-i18n="sections.contact">CONTACT</span></p>
+          <h2 data-i18n="contact.title">Let’s connect</h2>
+          <p class="contact-copy" id="contactCopy">Best channel: email or LinkedIn.</p>
         </div>
         <div class="contact-links" id="contactLinks"></div>
       </div>
+
       <footer class="footer">
-        <span>Julio García-Amorena Reina</span>
-        <span>v1.0 · GitHub Pages</span>
+        <span>© <span id="year"></span> Julio García-Amorena</span>
+        <span>Built for GitHub Pages · Static HTML/CSS/JS</span>
       </footer>
     </section>
   </main>
